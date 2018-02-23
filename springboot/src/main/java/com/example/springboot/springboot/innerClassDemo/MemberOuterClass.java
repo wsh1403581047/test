@@ -23,7 +23,6 @@ public class MemberOuterClass {
         private Integer age = 18;
         //行别
         private String sex = "男";
-
         public void getInfo(){
             logger.info("外部类name:" + MemberOuterClass.this.name);
             logger.info("外部类age:" + MemberOuterClass.this.age);
